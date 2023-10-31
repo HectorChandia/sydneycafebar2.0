@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: $fuente; */
+}
+
+.card-title {
+  text-align: center;
+  padding: 0;
+  border: 0;
+  align-items: center;
+  text-decoration: none;
+  text-align: top;
+}
+
+.fondo-plomo {
+  background-color: rgb(228, 228, 228);
+}
+
+.h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  background-color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.header-logo {
+  height: 400px;
+}
+
+@media (min-width: 375px) {
+  .card-title {
+    padding: 0;
+    border: 0;
+    align-items: center;
+    text-decoration: none;
+    text-align: top;
+  }
+}
+@media (min-width: 320px) {
+  .card-title {
+    padding: 0;
+    border: 0;
+    align-items: center;
+    text-decoration: none;
+    text-align: top;
+  }
+}
+@media (min-width: 100px) {
+  .card-title {
+    padding: 0;
+    border: 0;
+    align-items: center;
+    text-decoration: none;
+    text-align: top;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,8 +1,11 @@
 
 .card-title{
     text-align: center;
-    padding: 100px;
+    padding: 0;
+    border: 0;
+    align-items: center;
     text-decoration: none;
+    text-align: top;
 }
 .fondo-plomo {
     background-color: $color_plomo;

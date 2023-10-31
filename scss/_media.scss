@@ -1,6 +1,17 @@
-@media (max-width: 576px) {
-
-}
-@media (max-width: 360px) {
-
-}
+@media (min-width: 375px) {
+    .card-title {
+      @include card-title-mixin;
+    }
+  }
+  
+  @media (min-width: 320px) {
+    .card-title {
+      @include card-title-mixin;
+    }
+  }
+  
+  @media (min-width: 100px) {
+    .card-title {
+      @include card-title-mixin;
+    }
+  }
