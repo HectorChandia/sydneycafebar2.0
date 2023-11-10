@@ -1,7 +1,14 @@
-@mixin card-title-mixin {
-    padding: 0;
-    border: 0;
-    align-items: center;
-    text-decoration: none;
-    text-align: top;
+@mixin mediasQuerys ($breakpoint) {
+  @if $breakpoint == 'mobile' {
+    @media screen {
+      
+    }
   }
+}
+
+
+
+
+
+
+
